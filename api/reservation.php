@@ -1,6 +1,6 @@
 <?php
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-$dotenv->safeLoad();
+require '../bootstrap.php';
+
 echo "in \n";
 echo $_ENV['TESTAVAR'];
 echo "\n 2 \n";
