@@ -50,18 +50,18 @@ function send_mail(array $reservation_info) {
     $mail->Encoding = 'base64';
     $mail->SMTPDebug = false;
     //Set the hostname of the mail server
-    $mail->Host = $_ENV['email_server'];
+    $mail->Host = $_ENV['EMAIL_SERVER'];
     //Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
     $mail->Port = 587;
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->SMTPAuth = true;
-    $mail->Username = $_ENV['email'];
-    $mail->Password = $_ENV['email_password'];
-    echo $_ENV['email'];
-    echo $_ENV['reservation_manager_mail'];
+    $mail->Username = $_ENV['EMAIL'];
+    $mail->Password = $_ENV['EMAIL_PASSWORD'];
+    echo $_ENV['EMAIL'];
+    echo $_ENV['RESERVATION_MANAGER_MAIL'];
 
     $mail->setFrom($_ENV['email'], "Ταξιθέτες");
-    $mail->addAddress($_ENV['reservation_manager_mail'], $_ENV['reservation_manager_name']);
+    $mail->addAddress($_ENV['RESERVATION_MANAGER_MAIL'], $_ENV['RESERVATION_MANAGER_NAME']);
     $mail->Subject = "Ταξιθέτες | Νέα κράτηση";
 
     $body_message = VIEWER_MAIL;
