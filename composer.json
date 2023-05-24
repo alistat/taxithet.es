@@ -1,0 +1,8 @@
+{
+  "name": "alistat/taxithet.es",
+  "description": "taxithet.es website",
+  "license": "All rights reserved",
+  "require": {
+    "vlucas/phpdotenv": "^5.5"
+  }
+}
