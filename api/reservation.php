@@ -8,38 +8,57 @@ function verify_captcha() {
 
 const VIEWER_MAIL = /** @lang HTML */
 <<<EOD
-<div style="text-align: center">Η κράτησή σας για την παράσταση Ελέφαντας έχει καταχωρηθεί επιτυχώς.</div>
+<style>
+    th, td {
+        padding: 3px 5px;
+        border: 1px solid gray;
+        border-collapse: collapse;
+    }
+</style>
 
-<table style="margin: 1rem auto">
-    <tbody>
-        <tr>
-            <th>Ημερομηνία</th>
-            <td>__DATE__</td>
-        </tr>
-        <tr>
-            <th>Όνομα</th>
-            <td>__NAME__</td>
-        </tr>
-        <tr>
-            <th>Θέσεις</th>
-            <td>__PERSONS__</td>
-        </tr>
-        <tr>
-            <th>Θέσεις</th>
-            <td>__PERSONS__</td>
-        </tr>
-        <tr>
-            <th>Το τηλέφωνό σας</th>
-            <td>__PHONE__</td>
-        </tr>
-        <tr>
-            <th>Σχόλια</th>
-            <td>__COMMENTS__</td>
-        </tr>
-    </tbody>
-</table>
-
-<div style="text-align: center;">Οι Ταξιθέτες σας εύχονται <span style="font-style: italic">καλή θέαση</span>!</div>
+<div style="margin: auto; max-width: 20rem">
+    <p>Η κράτησή σας για την παράσταση Ελέφαντας έχει καταχωρηθεί επιτυχώς.</p>
+    
+    <table>
+        <thead>
+            <tr><th colspan="2">Πληροφορίες Κράτησης</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Ημερομηνία</th>
+                <td>__DATE__</td>
+            </tr>
+            <tr>
+                <th>Όνομα</th>
+                <td>__NAME__</td>
+            </tr>
+            <tr>
+                <th>Θέσεις</th>
+                <td>__PERSONS__</td>
+            </tr>
+            <tr>
+                <th>Θέσεις</th>
+                <td>__PERSONS__</td>
+            </tr>
+            <tr>
+                <th>Τηλέφωνο</th>
+                <td>__PHONE__</td>
+            </tr>
+            <tr>
+                <th>Σχόλια</th>
+                <td>__COMMENTS__</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <p>
+        Ώρα: 21:00 <br>
+        Θέατρο Μοντέρνοι Καιροί <br>
+        Δαμοκλέους 8, Γκάζι (<a href="https://goo.gl/maps/n3S4JYx9FZkfCWkR9">Google Maps</a>)
+    </p>
+    
+    <p>Οι Ταξιθέτες σας εύχονται <span style="font-style: italic">καλή θέαση</span>!</p>
+</div>
 EOD;
 
 
@@ -62,7 +81,7 @@ function send_mail(array $reservation_info) {
 
     $mail->setFrom($_ENV['EMAIL'], "Ταξιθέτες");
     $mail->addAddress($_ENV['RESERVATION_MANAGER_MAIL'], $_ENV['RESERVATION_MANAGER_NAME']);
-    $mail->Subject = "Ταξιθέτες | Νέα κράτηση";
+    $mail->Subject = "Ταξιθέτες | Ελέφαντας | Κράτηση";
 
     $body_message = VIEWER_MAIL;
     $body_message = str_replace("__DATE__", htmlspecialchars($reservation_info["date"]), $body_message);
