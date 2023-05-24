@@ -60,17 +60,16 @@ function send_mail(array $reservation_info) {
     echo $_ENV['EMAIL'];
     echo $_ENV['RESERVATION_MANAGER_MAIL'];
 
-    $mail->setFrom($_ENV['email'], "Ταξιθέτες");
+    $mail->setFrom($_ENV['EMAIL'], "Ταξιθέτες");
     $mail->addAddress($_ENV['RESERVATION_MANAGER_MAIL'], $_ENV['RESERVATION_MANAGER_NAME']);
     $mail->Subject = "Ταξιθέτες | Νέα κράτηση";
 
     $body_message = VIEWER_MAIL;
-    $body_message = str_replace($body_message, "__DATE__", htmlspecialchars($reservation_info["date"]));
-    $body_message = str_replace($body_message, "__NAME__", htmlspecialchars($reservation_info["name"]));
-    $body_message = str_replace($body_message, "__PERSONS__", htmlspecialchars($reservation_info["persons"]));
-    $body_message = str_replace($body_message, "__PHONE__", htmlspecialchars($reservation_info["phone"]));
-    $body_message = str_replace($body_message, "__COMMENTS__", htmlspecialchars($reservation_info["comments"]));
-
+    $body_message = str_replace("__DATE__", htmlspecialchars($reservation_info["date"]), $body_message);
+    $body_message = str_replace("__NAME__", htmlspecialchars($reservation_info["name"]), $body_message);
+    $body_message = str_replace("__PERSONS__", htmlspecialchars($reservation_info["persons"]), $body_message);
+    $body_message = str_replace("__PHONE__", htmlspecialchars($reservation_info["phone"]), $body_message);
+    $body_message = str_replace("__COMMENTS__", htmlspecialchars($reservation_info["comments"]), $body_message);
 
     echo $body_message;
     $mail->msgHTML($body_message);
