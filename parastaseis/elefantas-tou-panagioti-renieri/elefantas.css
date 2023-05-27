@@ -258,6 +258,8 @@ h2 {
     height: 58px;
     background: rgba(255, 255, 255, 0.5);
     padding: 5px;
+    text-align: center;
+    font-family: inherit;
 }
 
 .reservation-actions {
