@@ -1,3 +1,315 @@
+html {
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.background-overlay {
+    height: 105%;
+    width: 105%;
+    position: fixed;
+    z-index: -1;
+    background-image: url(elefantas.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: blur(4px) brightness(0.65);
+}
+
+.content {
+    background: rgb(255 255 255 / 85%);
+    padding: 0 40px;
+    border-radius: 30px;
+    width: 30rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    font-weight: 400;
+    border-style: none none double;
+    text-align: center;
+    border-width: 3px;
+    font-size: 18px;
+    padding: 0.2rem 0;
+    color: #263238;
+    border-color: darkgray;
+    text-transform: capitalize;
+    margin: 1.2rem 0 0.8rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.logo {
+    width: 60px;
+    margin-right: 10px;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.team-identity {
+    flex: auto;
+}
+
+.team-name {
+    font-size: 23px;
+    font-weight: 300;
+}
+
+/*.team-identity .team-name {*/
+/*    font-family: "Rubik", serif;*/
+/*    font-weight: 300;*/
+/*}*/
+
+.team-subname {
+    font-size: 17px;
+    opacity: 0.6;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+
+.description p:first-of-type {
+    margin-top: 0;
+}
+
+.description p:last-of-type {
+    margin-bottom: 0;
+}
+
+.description-text {
+    padding-right: 1rem;
+    margin-right: 1rem;
+    border-right: 2px dashed gray;
+    text-align: right;
+}
+
+.description-info {
+    min-width: 12rem;
+}
+
+.reservations {
+    margin-bottom: 20px;
+}
+
+.reservation-fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.reservation-field:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.reservation-field-full {
+    width: 100%
+}
+
+.reservation-field-full label {
+    text-align: center;
+    margin-bottom: 0.4em;
+}
+
+.reservation-field label {
+    display: block;
+    opacity: 0.7;
+}
+
+.reservation-field input {
+    border-style: none none dotted none;
+    border-width: 2px;
+    border-color:dimgray;
+    background: none;
+    padding: 3px 1px;
+    width: 13rem;
+    font-size: 15px;
+}
+
+.invalid.reservation-field input {
+    border-color: darkred;
+    color: darkred;
+    border-bottom-style: solid;
+}
+
+.invalid.reservation-field label {
+    color: darkred;
+}
+
+.reservation-field input:focus {
+    border-width: 2px;
+}
+
+.reservation-dates-values {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.reservation-date {
+    width: 30%;
+    border: 1px solid #adbec7;
+    border-radius: 3px;
+    text-align: center;
+    padding: 4px 0;
+    background: #d5dbe0;
+    margin-bottom: 3.33%;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+}
+
+.reservation-date-day {
+    font-size: 15px;
+    margin-bottom: 2px;
+    opacity: 0.75;
+}
+
+.selected .reservation-date-day {
+    opacity: 1;
+}
+
+.reservation-date-sold-out {
+    font-size: 14px;
+    color: darkred;
+}
+
 .selected {
-    background: aliceblue;
+    background: #3F51B5;
+    color: white;
+    font-weight: bold;
+    border-color: #3F51B5;
+}
+
+.reservation-date.soldOut {
+    opacity: 0.7;
+    background: lightgray;
+    border: 1px dashed #bec7cc;
+}
+
+/*.selected {
+    background: #607D8B;
+    color: white;
+    font-weight: bold;
+    border-width: 2px;
+    border-color: #455A64;
+}*/
+
+
+.reservation-fields:not(.success) .reservation-date:hover:not(.selected):not(.soldOut) {
+    background: #C5CAE9;
+}
+
+.reservation-persons {
+    width: 13rem;
+}
+
+.reservation-persons-input {
+    display: flex;
+    border-bottom: 2px dotted dimgray;
+    padding: 0.15rem 0;
+    font-family: monospace;
+}
+
+.reservation-persons-value {
+    flex: auto;
+    text-align: center;
+    font-size: 15px;
+}
+
+.reservation-persons-control {
+    background: lightgray;
+    width: 1.25rem;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    text-align: center;
+}
+
+.reservation-comments {
+    text-align: center;
+}
+
+.reservation-comments textarea {
+    border: 2px dotted dimgray;
+    border-radius: 10px;
+    width: 411px;
+    height: 58px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+}
+
+.reservation-actions {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.submit {
+    border-radius: 3px;
+    background: #333;
+    border: none;
+    color: #f7f7f7;
+    transition: all .5s;
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.submit:hover {
+    background: #78909C;
+}
+
+.submit:disabled {
+    background: lightgrey;
+    cursor: not-allowed;
+}
+
+.reservation-error {
+    text-align: center;
+    color: darkred;
+    margin: 1rem 0;
+}
+
+.loading {
+    opacity: 0.5;
+}
+
+.reservation-success {
+    text-align: center;
+    margin-top: 1rem;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.reservation-validation {
+    margin-top: 0.7rem;
+    text-align: center;
+    opacity: 0.7;
+    font-style: italic;
+    transition: opacity 0.4s linear;
+}
+
+.valid .reservation-validation {
+    opacity: 0;
 }
