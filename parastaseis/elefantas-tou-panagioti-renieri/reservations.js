@@ -43,11 +43,11 @@ export default {
       this.error = null;
       try {
         let captchaToken;
-        try {
-          captchaToken = await grecaptcha.enterprise.execute('6Lc1_zQmAAAAAJweybnwFAFLgBaxUBUH11lZ-AQQ', {action: 'reservation'});
-        } catch (error) {
-          console.error("Could not get captcha token", error);
-        }
+        // try {
+        //   captchaToken = await grecaptcha.enterprise.execute('6Lc1_zQmAAAAAJweybnwFAFLgBaxUBUH11lZ-AQQ', {action: 'reservation'});
+        // } catch (error) {
+        //   console.error("Could not get captcha token", error);
+        // }
         const resp = await axios.post("/api/res" + "ervation.php",
           {
             date: this.date.date,

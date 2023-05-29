@@ -5,7 +5,7 @@
     <title>Ελέφαντας του Παναγιώτη Ρενιέρη | Ταξιθέτες</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="elefantas.css?cache-bust=2">
+    <link rel="stylesheet" href="elefantas.css?cache-bust=3">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 </head>
 <body>
@@ -23,7 +23,8 @@
                 color: #263238;
             ">
                 <h1 class="team-name">Ελέφαντας</h1>
-                <div class="team-subname">του Παναγιώτη Ρενιέρη</div>
+                <div class="team-subname full-view">του Παναγιώτη Ρενιέρη</div>
+                <div class="team-subname mobile-view">του Π. Ρενιέρη</div>
             </div>
         </div>
 
@@ -63,10 +64,10 @@
         </div>
     </div>
 
-    <script src="https://www.google.com/recaptcha/enterprise.js?render=6Lc1_zQmAAAAAJweybnwFAFLgBaxUBUH11lZ-AQQ"></script>
+<!--    <script src="https://www.google.com/recaptcha/enterprise.js?render=6Lc1_zQmAAAAAJweybnwFAFLgBaxUBUH11lZ-AQQ"></script>-->
     <script type="module">
       import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
-      import Reservations from "./reservations.js?cache-bust=2";
+      import Reservations from "./reservations.js?cache-bust=3";
 
       document.addEventListener('DOMContentLoaded', () => {
 
@@ -89,7 +90,7 @@
                 {
                     day: "Κυριακή",
                     date: "11 Ιουνίου",
-                    soldOut: true,
+                    soldOut: false,
                 },
                 {
                     day: "Παρασκευή",
@@ -114,8 +115,6 @@
         }
       }).mount('.reservations')
     </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </body>
 </html>

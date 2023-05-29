@@ -11,6 +11,7 @@ body {
     margin: 0;
     padding: 1.5rem;
     min-width: 100vw;
+    box-sizing: border-box;
 }
 
 .background-overlay {
@@ -31,7 +32,7 @@ body {
 
 .content {
     background: rgb(255 255 255 / 85%);
-    padding: 2.2rem;
+    padding: 1.5rem;
     border-radius: 3px;
     max-width: 30rem;
 }
@@ -60,7 +61,7 @@ h2 {
 }
 
 .logo {
-    width: 60px;
+    width: 3rem;
     margin-right: 10px;
     border-radius: 10%;
     overflow: hidden;
@@ -370,10 +371,18 @@ td strong {
     text-decoration: underline;
 }
 
+.mobile-view {
+    display: none;
+}
+
 @media screen and (max-width: 35rem) {
     body {
         display: block;
         padding: 0.5rem;
+    }
+
+    .content {
+        padding: 1rem;
     }
 
     .description-info {
@@ -381,10 +390,18 @@ td strong {
     }
 
     .reservation-field input {
-        width: 10rem;
+        width: 9rem;
     }
 
     .reservation-persons {
-        width: 10rem;
+        width: 9rem;
+    }
+
+    .full-view {
+        display: none;
+    }
+
+    .mobile-view {
+        display: initial;
     }
 }
