@@ -277,7 +277,7 @@ h2 {
     /*border: 2px dashed rgb(105 105 105 / 50%);*/
     border: 1px solid rgb(105 105 105 / 50%);
     /*border-radius: 10px;*/
-    width: 411px;
+    width: 20rem;
     height: 58px;
     background: rgba(255, 255, 255, 0.5);
     padding: 5px;
@@ -308,8 +308,7 @@ h2 {
 }
 
 .submit:disabled {
-    background: lightgrey;
-    cursor: not-allowed;
+    background: grey;
 }
 
 .reservation-error {
