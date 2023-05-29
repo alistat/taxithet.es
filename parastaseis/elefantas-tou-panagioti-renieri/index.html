@@ -26,37 +26,38 @@
             </div>
         </div>
 
-        <h2>ΠΛΗΡΟΦΟΡΙΕΣ</h2>
+        <h2>Πληροφορίες</h2>
         <div class="description">
             <div class="description-text">
                 <p>
                     Οι Ταξιθέτες παρουσιάζουν τη θεατρική παράσταση «Ελέφαντας» του Παναγιώτη Ρενιέρη.
-                    Την έναρξη κάνει η Γιολίνα Σταμούλη με το μονόλογο «Το&nbsp;Εισητήριο».
+
                 </p>
+                <p>Την έναρξη κάνει η Γιολίνα Σταμούλη με το μονόλογο «Το&nbsp;Εισητήριο».</p>
                 <p>
-                    Τηλεφωνικές κρατήσεις και επικοινωνία στα <span class="reservation-phone"></span> και
+                    Επικοινωνία στα <span class="reservation-phone"></span> και
                     <span class="contact-mail"></span>
                 </p>
 
             </div>
             <div class="description-info">
                 <p>
-                    Έναρξη: 21:00
+                    <span class="description-label">Έναρξη:</span> 21:00
                     <br>
-                    Διάρκεια:
+                    <span class="description-label">Διάρκεια:</span>
                     120'
                 </p>
                 <p>
-                    Θέατρο Μοντέρνοι Καιροί <br>
+                    <span class="description-label">Θέατρο:</span> <br> Μοντέρνοι Καιροί <br>
                      <a href="https://goo.gl/maps/n3S4JYx9FZkfCWkR9">Δαμοκλέους 8, Γκάζι</a>
                 </p>
                 <p>
-                    Προτεινόμενη συνεισφορά:<br> 7€ | 5€ Μειωμένο
+                    <span class="description-label">Προτεινόμενη συνεισφορά:</span><br> 7€ | 5€ Μειωμένο
                 </p>
             </div>
         </div>
 
-        <h2>ΚΡΑΤΗΣΕΙΣ</h2>
+        <h2>Κρατήσεις</h2>
         <div class="reservations">
             <Reservations :dates="dates"></Reservations>
         </div>
@@ -68,7 +69,6 @@
       import Reservations from "./reservations.js";
 
       document.addEventListener('DOMContentLoaded', () => {
-
 
       });
 
@@ -89,7 +89,7 @@
                 {
                     day: "Κυριακή",
                     date: "11 Ιουνίου",
-                    soldOut: false,
+                    soldOut: true,
                 },
                 {
                     day: "Παρασκευή",

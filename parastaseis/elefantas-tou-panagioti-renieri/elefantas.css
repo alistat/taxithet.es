@@ -4,29 +4,36 @@ html {
 
 body {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 .background-overlay {
-    height: 105%;
-    width: 105%;
+    top: -8px;
+    height: 102%;
+    height: calc(100% + 16px);
+    width: 102%;
+    width: calc(100% + 13px);
     position: fixed;
     z-index: -1;
     background-image: url(elefantas.jpg);
     background-position: center;
     background-size: cover;
-    filter: blur(4px) brightness(0.65);
+    filter: blur(10px) brightness(0.7) grayscale(0.3);
+    left: -8px;
+    overflow: hidden;
 }
 
 .content {
     background: rgb(255 255 255 / 85%);
     padding: 0 40px;
-    border-radius: 30px;
+    border-radius: 3px;
     width: 30rem;
+    margin: 1.5rem;
 }
 
 h1 {
@@ -35,15 +42,16 @@ h1 {
 
 h2 {
     font-weight: 400;
-    border-style: none none double;
+    /*border-style: none none double;*/
+    /*border-color: darkgray;*/
+    /*border-width: 3px;*/
     text-align: center;
-    border-width: 3px;
-    font-size: 18px;
+    /*font-size : 18 px;*/
     padding: 0.2rem 0;
     color: #263238;
-    border-color: darkgray;
     text-transform: capitalize;
     margin: 1.2rem 0 0.8rem;
+    font-size: 1.3rem;
 }
 
 .header {
@@ -64,8 +72,9 @@ h2 {
 }
 
 .team-name {
-    font-size: 23px;
+    /*font-size : 23px;*/
     font-weight: 300;
+    font-size: 1.5rem;
 }
 
 /*.team-identity .team-name {*/
@@ -74,16 +83,18 @@ h2 {
 /*}*/
 
 .team-subname {
-    font-size: 17px;
+    /*font-size : 17px;*/
     opacity: 0.6;
+    font-size: 1.1rem;
 }
 
 .description {
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
     margin-bottom: 1.5rem;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 14px;
+    /*font-size : 14px;*/
+    font-size: 1rem;
 }
 
 .description p:first-of-type {
@@ -97,12 +108,17 @@ h2 {
 .description-text {
     padding-right: 1rem;
     margin-right: 1rem;
-    border-right: 2px dashed gray;
-    text-align: right;
+    /*border-right: 2px dashed gray;*/
+    text-align: center;
+    color: #333;
 }
 
 .description-info {
-    min-width: 12rem;
+    min-width: 11rem;
+}
+
+.description-label {
+    opacity: 0.7;
 }
 
 .reservations {
@@ -134,13 +150,14 @@ h2 {
 }
 
 .reservation-field input {
-    border-style: none none dotted none;
-    border-width: 2px;
+    border-style: none none solid none;
+    border-width: 1px;
     border-color:dimgray;
     background: none;
     padding: 3px 1px;
     width: 13rem;
-    font-size: 15px;
+    /*font-size : 15px;*/
+    font-size: 1rem;
 }
 
 .invalid.reservation-field input {
@@ -180,9 +197,10 @@ h2 {
 }
 
 .reservation-date-day {
-    font-size: 15px;
+    /*font-size : 15px;*/
     margin-bottom: 2px;
     opacity: 0.75;
+    font-size: 0.9rem;
 }
 
 .selected .reservation-date-day {
@@ -190,8 +208,9 @@ h2 {
 }
 
 .reservation-date-sold-out {
-    font-size: 14px;
+    /*font-size : 14 px;*/
     color: darkred;
+    font-size: 0.9rem;
 }
 
 .selected {
@@ -226,15 +245,16 @@ h2 {
 
 .reservation-persons-input {
     display: flex;
-    border-bottom: 2px dotted dimgray;
-    padding: 0.15rem 0;
+    border-bottom: 1px solid dimgray;
+    padding: 0.15rem 0 0.2rem;
     font-family: monospace;
 }
 
 .reservation-persons-value {
     flex: auto;
     text-align: center;
-    font-size: 15px;
+    /*font-size : 15px;*/
+    font-size: 1rem;
 }
 
 .reservation-persons-control {
@@ -242,9 +262,10 @@ h2 {
     width: 1.25rem;
     border-radius: 3px;
     font-weight: bold;
-    font-size: 15px;
+    /*font-size : 15px;*/
     border: none;
     text-align: center;
+    font-size: 1rem;
 }
 
 .reservation-comments {
@@ -252,14 +273,17 @@ h2 {
 }
 
 .reservation-comments textarea {
-    border: 2px dotted dimgray;
-    border-radius: 10px;
+    /*border: 2px dotted dimgray;*/
+    /*border: 2px dashed rgb(105 105 105 / 50%);*/
+    border: 1px solid rgb(105 105 105 / 50%);
+    /*border-radius: 10px;*/
     width: 411px;
     height: 58px;
     background: rgba(255, 255, 255, 0.5);
     padding: 5px;
     text-align: center;
     font-family: inherit;
+    font-size: 0.9rem;
 }
 
 .reservation-actions {
@@ -275,7 +299,8 @@ h2 {
     transition: all .5s;
     padding: 0.5em 1em;
     text-transform: uppercase;
-    font-size: 15px;
+    /*font-size : 15px;*/
+    font-size: 1.1rem;
 }
 
 .submit:hover {
@@ -297,11 +322,12 @@ h2 {
     opacity: 0.5;
 }
 
-.reservation-success {
+.reservation-success-message {
     text-align: center;
     margin-top: 1rem;
     color: darkgreen;
     font-weight: bold;
+    margin-bottom: 1rem;
 }
 
 .reservation-validation {
@@ -314,4 +340,37 @@ h2 {
 
 .valid .reservation-validation {
     opacity: 0;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tbody th {
+    opacity: 0.7;
+    font-weight: normal;
+    width: 45%;
+    text-align: right;
+}
+
+tbody th::after {
+    content: ":";
+}
+
+th, td {
+    padding: 3px 5px;
+    white-space: pre;
+}
+
+td strong {
+    color: #495353;
+}
+
+.reservation-success-email-notice {
+    text-align: center;
+    margin: 1rem;
+    color: #333;
+    text-decoration: underline;
 }

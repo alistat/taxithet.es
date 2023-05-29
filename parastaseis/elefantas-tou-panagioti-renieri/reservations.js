@@ -48,7 +48,7 @@ export default {
         } catch (error) {
           console.error("Could not get captcha token", error);
         }
-        const resp = await axios.post("/api/reservation.php",
+        const resp = await axios.post("/api/res" + "ervation.php",
           {
             date: this.date.date,
             persons: this.persons,
@@ -73,9 +73,9 @@ export default {
     }
   },
   template: `
-    <div class="reservation-fields" :class="{ loading, success, valid }">
+    <div class="reservation-fields" :class="{ loading, success, valid }" v-if="!success">
         <div class="reservation-field reservation-dates reservation-field-full">
-            <label>Επιλέξτε Ημερομηνία*</label>
+            <label>Ημερομηνία*</label>
             <div class="reservation-dates-values">
                 <div class="reservation-date"
                   v-for="availableDate in dates" 
@@ -110,12 +110,50 @@ export default {
         </div>
         <div class="reservation-field reservation-comments reservation-field-full">
             <label>Σχόλια</label>
-            <textarea v-model="comments" placeholder="Γράψτε για παράδειγμα αν υπάρχουν άτομα με κινητικές δυσκολίες" :disabled="success"></textarea>
+            <textarea v-model="comments" placeholder="Οτιδήποτε θα ήταν καλό να ξέρουμε" :disabled="success"></textarea>
         </div>
     </div>
     <div class="reservation-control" :class="{ error, success, valid }">
       <div class="reservation-error" v-if="error">{{error}}</div>
-      <div class="reservation-success" v-if="success">Επιτυχία! Λάβαμε την κράτησή σας. <br> Σας έχουμε στείλει ένα αντίγραφο στο email σας.</div>
+      <div class="reservation-success" v-if="success">
+        <div class="reservation-success-message">
+            Επιτυχία! Λάβαμε την κράτησή σας.
+        </div>
+        <div class="reservation-success-info">
+            <table>
+<!--                <thead>-->
+<!--                    <tr><th colspan="2">Πληροφορίες Κράτησης</th></tr>-->
+<!--                </thead>-->
+                <tbody>
+                    <tr>
+                        <th>Ημερομηνία</th>
+                        <td><strong>{{date.day}} {{date.date}}</strong></td>
+                    </tr>
+                    <tr>
+                        <th>Όνομα</th>
+                        <td>{{name}}</td>
+                    </tr>
+                    <tr>
+                        <th>Θέσεις</th>
+                        <td>{{persons}}</td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td>{{email}}</td>
+                    </tr>
+                    <tr>
+                        <th>Τηλέφωνο</th>
+                        <td>{{phone}}</td>
+                    </tr>
+                    <tr>
+                        <th>Σχόλια</th>
+                        <td>{{comments}}</td>
+                    </tr>
+                </tbody>
+          </table>
+          <div class="reservation-success-email-notice">Σας έχουμε στείλει ένα αντίγραφο στο email σας.</div>
+        </div>
+      </div>
       <div class="reservation-validation" v-if="!success">Τα πεδία με <strong>*</strong> είναι υποχρεωτικά.</div>
       <div class="reservation-actions" v-if="!success">
           <button class="submit" @click="submit" :disabled="loading || !dateOk || !nameOk || !emailOk || !phoneOk">Υποβολη Κρατησης</button>

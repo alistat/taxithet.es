@@ -8,8 +8,9 @@ function verify_captcha(): bool {
 
 const VIEWER_MAIL = /** @lang HTML */
 <<<EOD
-<html>
+<html lang="el">
 <head>
+<title>Κράτηση για την παράσταση Ελέφαντας</title>
 <style>
     table {
         border-spacing: 0;
