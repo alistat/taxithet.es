@@ -7,9 +7,10 @@ body {
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    padding: 0;
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    padding: 1.5rem;
+    min-width: 100vw;
 }
 
 .background-overlay {
@@ -30,10 +31,9 @@ body {
 
 .content {
     background: rgb(255 255 255 / 85%);
-    padding: 0 40px;
+    padding: 2.2rem;
     border-radius: 3px;
-    width: 30rem;
-    margin: 1.5rem;
+    max-width: 30rem;
 }
 
 h1 {
@@ -57,7 +57,6 @@ h2 {
 .header {
     display: flex;
     align-items: center;
-    margin: 30px 0;
 }
 
 .logo {
@@ -119,10 +118,6 @@ h2 {
 
 .description-label {
     opacity: 0.7;
-}
-
-.reservations {
-    margin-bottom: 20px;
 }
 
 .reservation-fields {
@@ -246,7 +241,7 @@ h2 {
 .reservation-persons-input {
     display: flex;
     border-bottom: 1px solid dimgray;
-    padding: 0.15rem 0 0.2rem;
+    padding: 0.15rem 0 0.15rem;
     font-family: monospace;
 }
 
@@ -278,7 +273,8 @@ h2 {
     border: 1px solid rgb(105 105 105 / 50%);
     /*border-radius: 10px;*/
     width: 20rem;
-    height: 58px;
+    max-width: 100%;
+    height: 3rem;
     background: rgba(255, 255, 255, 0.5);
     padding: 5px;
     text-align: center;
@@ -372,4 +368,23 @@ td strong {
     margin: 1rem;
     color: #333;
     text-decoration: underline;
+}
+
+@media screen and (max-width: 35rem) {
+    body {
+        display: block;
+        padding: 0.5rem;
+    }
+
+    .description-info {
+        min-width: unset;
+    }
+
+    .reservation-field input {
+        width: 10rem;
+    }
+
+    .reservation-persons {
+        width: 10rem;
+    }
 }
