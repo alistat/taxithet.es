@@ -75,7 +75,7 @@ export default {
   template: `
     <div class="reservation-fields" :class="{ loading, success, valid }" v-if="!success">
         <div class="reservation-field reservation-dates reservation-field-full">
-            <label>Ημερομηνία*</label>
+<!--            <label>Ημερομηνία*</label>-->
             <div class="reservation-dates-values">
                 <div class="reservation-date"
                   v-for="availableDate in dates" 

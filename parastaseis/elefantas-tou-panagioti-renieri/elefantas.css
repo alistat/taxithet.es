@@ -25,7 +25,7 @@ body {
     background-image: url(elefantas.jpg);
     background-position: center;
     background-size: cover;
-    filter: blur(10px) brightness(0.7) grayscale(0.3);
+    filter: blur(10px) brightness(0.64) grayscale(0.3);
     left: -8px;
     overflow: hidden;
 }
@@ -34,7 +34,7 @@ body {
     background: rgb(255 255 255 / 85%);
     padding: 1.5rem;
     border-radius: 3px;
-    max-width: 30rem;
+    max-width: 50rem;
 }
 
 h1 {
@@ -50,9 +50,15 @@ h2 {
     /*font-size : 18 px;*/
     padding: 0.2rem 0;
     color: #263238;
-    text-transform: capitalize;
     margin: 1.2rem 0 0.8rem;
     font-size: 1.3rem;
+}
+
+a:visited {
+    color: #AB47BC;
+}
+a {
+    color: #5C6BC0;
 }
 
 .header {
@@ -88,12 +94,28 @@ h2 {
     font-size: 1.1rem;
 }
 
+.social-link {
+    text-decoration: none;
+    margin-left: 0.5rem;
+    display: inline-block;
+}
+
+.social-icon {
+    width: 2.7rem;
+}
+
+.image-banner-wrap {
+    margin: 1.1rem 0 1rem;
+}
+
+.image-banner {
+    max-width: 100%;
+}
+
 .description {
     display: flex;
-    /*align-items: center;*/
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     font-family: 'Ubuntu', sans-serif;
-    /*font-size : 14px;*/
     font-size: 1rem;
 }
 
@@ -106,19 +128,33 @@ h2 {
 }
 
 .description-text {
-    padding-right: 1rem;
-    margin-right: 1rem;
-    /*border-right: 2px dashed gray;*/
-    text-align: center;
+    margin-right: 2rem;
+    text-align: justify;
     color: #333;
 }
 
 .description-info {
-    min-width: 11rem;
+    font-size: 1.05rem;
+    min-width: 12rem;
+}
+
+.no-pos {
+    color: #616161;
 }
 
 .description-label {
     opacity: 0.7;
+}
+
+.art-workers {
+    color: black;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.reservations {
+    max-width: 30rem;
+    margin: auto;
 }
 
 .reservation-fields {
@@ -378,7 +414,7 @@ td strong {
 @media screen and (max-width: 35rem) {
     body {
         display: block;
-        padding: 0.5rem;
+        padding: 0;
     }
 
     .content {
@@ -403,5 +439,14 @@ td strong {
 
     .mobile-view {
         display: initial;
+    }
+
+    .description {
+        flex-direction: column;
+    }
+
+    .description-text {
+        margin-right: 0;
+        margin-bottom: 1rem;
     }
 }
