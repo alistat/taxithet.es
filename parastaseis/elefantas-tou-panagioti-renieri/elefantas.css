@@ -411,6 +411,17 @@ td strong {
     display: none;
 }
 
+@media screen and (max-width: 40rem) {
+    .description {
+        flex-direction: column;
+    }
+
+    .description-text {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+}
+
 @media screen and (max-width: 35rem) {
     body {
         display: block;
@@ -426,11 +437,11 @@ td strong {
     }
 
     .reservation-field input {
-        width: 9rem;
+        width: 10rem;
     }
 
     .reservation-persons {
-        width: 9rem;
+        width: 10rem;
     }
 
     .full-view {
@@ -439,14 +450,5 @@ td strong {
 
     .mobile-view {
         display: initial;
-    }
-
-    .description {
-        flex-direction: column;
-    }
-
-    .description-text {
-        margin-right: 0;
-        margin-bottom: 1rem;
     }
 }
