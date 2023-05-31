@@ -10,7 +10,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
     <link rel="icon" type="image/png" href="https://taxithet.es/favicon-128.png" sizes="128x128"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="elefantas.css?cache-bust=4">
+    <link rel="stylesheet" href="elefantas.css?cache-bust=5">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
     <meta name="description" content="Παράσταση Ελέφαντας του Παναγιώτη Ρενιέρη από την ομάδα θεάτρου Ταξιθέτες" />
@@ -51,7 +51,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
             </div>
         </div>
         <div class="image-banner-wrap">
-            <img class="image-banner" src="FB-COVER-ELEPHANT.jpg" alt="Ελέφαντας banner" title="Ελέφαντας του Παναγιώτη Ρενιέρη | Ταξιθέτες">
+            <img class="image-banner" src="FB-COVER-ELEPHANT.webp" alt="Ελέφαντας banner" title="Ελέφαντας του Παναγιώτη Ρενιέρη | Ταξιθέτες">
         </div>
         <h2>Ελέφαντας <span class="full-view">-</span><br class="mobile-view"> του Παναγιώτη Ρενιέρη</h2>
         <div class="description">
