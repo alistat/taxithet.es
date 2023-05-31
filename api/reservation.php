@@ -1,5 +1,5 @@
 <?php
-require '../bootstrap.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
 use PHPMailer\PHPMailer\PHPMailer;
 
 function verify_captcha(): bool {
@@ -97,7 +97,7 @@ const VIEWER_MAIL = /** @lang HTML */
         Ώρα: 21:00 <br>
         Θέατρο Μοντέρνοι Καιροί <br>
         Δαμοκλέους 8, Γκάζι (<a href="https://goo.gl/maps/n3S4JYx9FZkfCWkR9">Google Maps</a>)  <br>
-        Προτεινόμενη συνεισφορά: 7€ | 5€ Μειωμένο
+        Προτεινόμενη συμμετοχή: 8€ 
     </p>
 
     <p>
