@@ -69,7 +69,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
                 <p>Αμέσως πριν, η Γιολίνα Σταμούλη ερμηνεύει «Το Εισιτήριο».</p>
 
                 <p class="art-workers">
-                    <span class="description-label">Κείμενο, Σκηνοθεσία:</span> Παναγιώτης Ρενιέρης<br>
+                    <span class="description-label">Κείμενα, Σκηνοθεσία:</span> Παναγιώτης Ρενιέρης<br>
                     <span class="description-label">Σχεδιασμός φωτισμών:</span> Παναγιώτης Μανούσης<br>
                     <span class="description-label">Σκηνικά:</span> Παναγιώτης Ρενιέρης, Εβελίνα Παρασκευοπούλου<br>
                     <span class="description-label">Κοστούμια, Make-up:</span> Εβελίνα Παρασκευοπούλου<br>
