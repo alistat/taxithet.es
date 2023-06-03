@@ -153,6 +153,33 @@ a {
     text-align: left;
 }
 
+.gallery {
+    display: grid;
+    align-items: center;
+    background: black;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 2rem;
+}
+
+.gallery a {
+    align-self: center;
+}
+
+.gallery img, .gallery video {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.promo-video {
+    grid-column: 1 / 3;
+    grid-row: 1 / 4;
+}
+
+.poster {
+    grid-row: 1 / 3;
+}
+
 .reservations {
     max-width: 30rem;
     margin: auto;

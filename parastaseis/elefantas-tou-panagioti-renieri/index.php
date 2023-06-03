@@ -74,6 +74,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
                     <span class="description-label">Σκηνικά:</span> Παναγιώτης Ρενιέρης, Εβελίνα Παρασκευοπούλου<br>
                     <span class="description-label">Κοστούμια, Make-up:</span> Εβελίνα Παρασκευοπούλου<br>
                     <span class="description-label">Βίντεο, Φωτογραφία αφίσας:</span> Νίκος Πάγκαλος, Άλεξ Σολτς<br>
+                    <span class="description-label">Φωτογράφοι: </span>Μαρίνα Νικητοπούλου, Τζίνα Νικολίνα, Στέφανος Βλάχος<br>
                     <span class="description-label">Σχεδιασμός αφίσας:</span> Θεοδώρα Μόσχου<br>
                     <span class="description-label">Σχεδιασμός προγράμματος:</span> Δέσποινα Χάτου<br>
                     <span class="description-label">Φωτογραφίες προγράμματος:</span> Cone Be<br><br>
@@ -108,11 +109,57 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
             </div>
         </div>
 
+        <div class="gallery">
+            <a class="promo-video"
+               data-video='{"source": [{"src":"gallery/ELEPHANT-VIDEO.webm", "type":"video/webm"}], "attributes": {"preload": false, "controls": true}}'
+               data-lg-size="1080-1080" data-sub-html="Promo Video - Ελέφαντας του Παναγιώτη Ρενιέρη<br><em>Video: Νίκος Πάγκαλος, Άλεξ Σολτς</em>">
+                <img alt="Promo Video - Ελέφαντας του Παναγιώτη Ρενιέρη" src="gallery/VIDEO_THUMB.jpg" />
+            </a>
+            <a class="poster" href="gallery/POSTER-ELEPHANT.jpg" data-sub-html="Αφίσα - Ελέφαντας του Παναγιώτη Ρενιέρη<br><em>Σχεδιασμός: Θεοδώρα Μόσχου</em>">
+                <img alt="Αφίσα - Ελέφαντας του Παναγιώτη Ρενιέρη" src="gallery/POSTER-ELEPHANT.jpg" />
+            </a>
+            <a href="gallery/ELEPHANT-1.jpg" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (1)<br><em>Click: Στέφανος Βλάχος</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (1)" src="gallery/ELEPHANT-1.jpg" />
+            </a>
+            <a href="gallery/ELEPHANT-4.jpg" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (2)<br><em>Click: Μαρίνα Νικητοπούλου</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (2)" src="gallery/ELEPHANT-4.jpg" />
+            </a>
+            <a href="gallery/ELEPHANT-6.jpg" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (3)<br><em>Click: Μαρίνα Νικητοπούλου</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (3)" src="gallery/ELEPHANT-6.jpg" />
+            </a>
+            <a href="gallery/ELEPHANT-3.jpg" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (4)<br><em>Click: Τζίνα Νικολίνα</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (4)" src="gallery/ELEPHANT-3.jpg" />
+            </a>
+            <a href="gallery/ELEPHANT-2.jpg" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (5)<br><em>Click: Τζίνα Νικολίνα</em>">
+                <!--                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (2)" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (2)<br><em>Click</em>" src="gallery/ELEPHANT-2.jpg" />-->
+            </a>
+            <a href="gallery/ELEPHANT-7.jpg" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (6)<br><em>Click: Μαρίνα Νικητοπούλου</em>">
+<!--                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (7)" src="gallery/ELEPHANT-7.jpg" />-->
+            </a>
+            <a href="gallery/ELEPHANT-8.jpg" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (7)<br><em>Click: Μαρίνα Νικητοπούλου</em>">
+<!--                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (8)" src="gallery/ELEPHANT-8.jpg" />-->
+            </a>
+            <a href="gallery/ELEPHANT-5.jpg" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (8)<br><em>Click: Τζίνα Νικολίνα</em>">
+                <!--                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (5)" src="gallery/ELEPHANT-5.jpg" />-->
+            </a>
+        </div>
+
         <h2>Κράτηση</h2>
         <div class="reservations">
             <Reservations :dates="dates"></Reservations>
         </div>
     </div>
+
+    <script src="https://unpkg.com/lightgallery@2/lightgallery.min.js"></script>
+    <script src="https://unpkg.com/lightgallery@2/plugins/video/lg-video.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/lightgallery@2/css/lightgallery-bundle.min.css">
+    <script>
+
+        lightGallery(document.querySelector(".gallery"), {
+            download: false,
+            plugins: [lgVideo]
+        });
+    </script>
 
 <!--    <script src="https://www.google.com/recaptcha/enterprise.js?render=6Lc1_zQmAAAAAJweybnwFAFLgBaxUBUH11lZ-AQQ"></script>-->
     <script type="module">
