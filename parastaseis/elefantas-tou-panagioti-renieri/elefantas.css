@@ -31,7 +31,7 @@ body {
 
 .content {
     background: rgb(255 255 255 / 85%);
-    padding: 1.5rem;
+    /*padding: 1.5rem;*/
     border-radius: 3px;
     max-width: 50rem;
 }
@@ -63,6 +63,7 @@ a {
 .header {
     display: flex;
     align-items: center;
+    padding: 1.5rem 1.5rem 0;
 }
 
 .logo {
@@ -116,6 +117,7 @@ a {
     margin-bottom: 1rem;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
+    padding: 0 1.5rem;
 }
 
 .description p:first-of-type {
@@ -154,6 +156,7 @@ a {
 .reservations {
     max-width: 30rem;
     margin: auto;
+    padding: 0 1.5rem 1.5rem;
 }
 
 .reservation-fields {
@@ -427,8 +430,16 @@ td strong {
         padding: 0;
     }
 
-    .content {
-        padding: 1rem;
+    .header {
+        padding: 1rem 1rem 0;
+    }
+
+    .description {
+        padding: 0 1rem;
+    }
+
+    .reservation {
+        padding: 0 1rem 1rem;
     }
 
     .description-info {
