@@ -10,7 +10,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
     <link rel="icon" type="image/png" href="https://taxithet.es/favicon-128.png" sizes="128x128"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="elefantas.css?cache-bust=6">
+    <link rel="stylesheet" href="elefantas.css?cache-bust=7">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
     <meta name="description" content="Παράσταση Ελέφαντας του Παναγιώτη Ρενιέρη από την ομάδα θεάτρου Ταξιθέτες" />
@@ -114,6 +114,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
                data-video='{"source": [{"src":"gallery/ELEPHANT-VIDEO.webm", "type":"video/webm"}], "attributes": {"preload": false, "controls": true}}'
                data-lg-size="1080-1080" data-sub-html="Promo Video - Ελέφαντας του Παναγιώτη Ρενιέρη<br><em>Video: Νίκος Πάγκαλος, Άλεξ Σολτς</em>">
                 <img alt="Promo Video - Ελέφαντας του Παναγιώτη Ρενιέρη" src="gallery/VIDEO_THUMB.jpg" />
+                <div class="play-icon"></div>
             </a>
             <a class="poster" href="gallery/POSTER-ELEPHANT.jpg" data-sub-html="Αφίσα - Ελέφαντας του Παναγιώτη Ρενιέρη<br><em>Σχεδιασμός: Θεοδώρα Μόσχου</em>">
                 <img alt="Αφίσα - Ελέφαντας του Παναγιώτη Ρενιέρη" src="gallery/POSTER-ELEPHANT.jpg" />
