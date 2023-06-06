@@ -119,8 +119,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
             <a class="poster" href="gallery/POSTER-ELEPHANT.jpg" data-sub-html="Αφίσα - Ελέφαντας του Παναγιώτη Ρενιέρη<br><em>Σχεδιασμός: Θεοδώρα Μόσχου</em>">
                 <img alt="Αφίσα - Ελέφαντας του Παναγιώτη Ρενιέρη" src="gallery/POSTER-ELEPHANT.jpg" />
             </a>
-            <a href="gallery/ELEPHANT-1.jpg" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (1)<br><em>Click: Στέφανος Βλάχος</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (1)" src="gallery/ELEPHANT-1.jpg" />
+            <a href="gallery/IOC_2627.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (1)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (1)" src="gallery/IOC_2627.webp" />
             </a>
             <a href="gallery/ELEPHANT-4.jpg" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (2)<br><em>Click: Μαρίνα Νικητοπούλου</em>">
                 <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (2)" src="gallery/ELEPHANT-4.jpg" />
