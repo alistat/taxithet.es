@@ -156,7 +156,6 @@ a {
     align-items: center;
     background: black;
     grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 2rem;
 }
 
 .gallery a {

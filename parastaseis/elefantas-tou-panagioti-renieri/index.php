@@ -109,6 +109,11 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
             </div>
         </div>
 
+        <h2>Κράτηση</h2>
+        <div class="reservations">
+            <Reservations :dates="dates"></Reservations>
+        </div>
+
         <div class="gallery">
             <a class="promo-video"
                data-video='{"source": [{"src":"gallery/ELEPHANT-VIDEO.webm", "type":"video/webm"}], "attributes": {"preload": false, "controls": true}}'
@@ -143,11 +148,6 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
             <a href="gallery/ELEPHANT-5.jpg" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (8)<br><em>Click: Τζίνα Νικολίνα</em>">
                 <!--                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (5)" src="gallery/ELEPHANT-5.jpg" />-->
             </a>
-        </div>
-
-        <h2>Κράτηση</h2>
-        <div class="reservations">
-            <Reservations :dates="dates"></Reservations>
         </div>
     </div>
 
