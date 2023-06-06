@@ -74,7 +74,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
                     <span class="description-label">Σκηνικά:</span> Παναγιώτης Ρενιέρης, Εβελίνα Παρασκευοπούλου<br>
                     <span class="description-label">Κοστούμια, Make-up:</span> Εβελίνα Παρασκευοπούλου<br>
                     <span class="description-label">Βίντεο, Φωτογραφία αφίσας:</span> Νίκος Πάγκαλος, Άλεξ Σολτς<br>
-                    <span class="description-label">Φωτογράφοι: </span>Μαρίνα Νικητοπούλου, Τζίνα Νικολίνα, Στέφανος Βλάχος<br>
+                    <span class="description-label">Φωτογράφοι: </span>Χαράλαμπος Ιωαννόπουλος, Μαρίνα Νικητοπούλου, Τζίνα Νικολίνα, Στέφανος Βλάχος<br>
                     <span class="description-label">Σχεδιασμός αφίσας:</span> Θεοδώρα Μόσχου<br>
                     <span class="description-label">Σχεδιασμός προγράμματος:</span> Δέσποινα Χάτου<br>
                     <span class="description-label">Φωτογραφίες προγράμματος:</span> Cone Be<br><br>
