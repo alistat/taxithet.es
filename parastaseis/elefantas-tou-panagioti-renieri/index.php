@@ -126,29 +126,44 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
             <a class="poster" href="gallery/POSTER-ELEPHANT.jpg" data-sub-html="Αφίσα - Ελέφαντας του Παναγιώτη Ρενιέρη<br><em>Σχεδιασμός: Θεοδώρα Μόσχου</em>">
                 <img alt="Αφίσα - Ελέφαντας του Παναγιώτη Ρενιέρη" src="gallery/POSTER-ELEPHANT.jpg" />
             </a>
-            <a href="gallery/IOC_2627.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (1)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (1)" src="gallery/IOC_2627.webp" />
+            <a href="gallery/1-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (1)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (1)" src="gallery/1-IOANNOPOULOS.webp" />
             </a>
-            <a href="gallery/ELEPHANT-4.jpg" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (2)<br><em>Click: Μαρίνα Νικητοπούλου</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (2)" src="gallery/ELEPHANT-4.jpg" />
+            <a href="gallery/2-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (2)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (2)" src="gallery/2-IOANNOPOULOS.webp" />
             </a>
-            <a href="gallery/ELEPHANT-6.jpg" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (3)<br><em>Click: Μαρίνα Νικητοπούλου</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (3)" src="gallery/ELEPHANT-6.jpg" />
+            <a href="gallery/3-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (3)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (3)" src="gallery/3-IOANNOPOULOS.webp" />
             </a>
-            <a href="gallery/ELEPHANT-3.jpg" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (4)<br><em>Click: Τζίνα Νικολίνα</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (4)" src="gallery/ELEPHANT-3.jpg" />
+            <a href="gallery/4-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (4)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (4)" src="gallery/4-IOANNOPOULOS.webp" />
             </a>
-            <a href="gallery/ELEPHANT-2.jpg" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (5)<br><em>Click: Τζίνα Νικολίνα</em>">
-                <!--                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (2)" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (2)<br><em>Click</em>" src="gallery/ELEPHANT-2.jpg" />-->
+            <a href="gallery/5-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (5)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (5)" src="gallery/5-IOANNOPOULOS.webp" />
             </a>
-            <a href="gallery/ELEPHANT-7.jpg" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (6)<br><em>Click: Μαρίνα Νικητοπούλου</em>">
-<!--                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (7)" src="gallery/ELEPHANT-7.jpg" />-->
+            <a href="gallery/7-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (7)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (7)" src="gallery/7-IOANNOPOULOS.webp" />
             </a>
-            <a href="gallery/ELEPHANT-8.jpg" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (7)<br><em>Click: Μαρίνα Νικητοπούλου</em>">
-<!--                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (8)" src="gallery/ELEPHANT-8.jpg" />-->
+            <a href="gallery/8-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (8)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (8)" src="gallery/8-IOANNOPOULOS.webp" />
             </a>
-            <a href="gallery/ELEPHANT-5.jpg" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (8)<br><em>Click: Τζίνα Νικολίνα</em>">
-                <!--                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (5)" src="gallery/ELEPHANT-5.jpg" />-->
+            <a href="gallery/9-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (9)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (9)" src="gallery/9-IOANNOPOULOS.webp" />
+            </a>
+            <a href="gallery/12-NIKOLINA.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (12)<br><em>Click: Τζίνα Νικολίνα</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (12)" src="gallery/12-NIKOLINA.webp" />
+            </a>
+            <a href="gallery/10-NIKITOPOULOU.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (10)<br><em>Click: Μαρίνα Νικητοπούλου</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (10)" src="gallery/10-NIKITOPOULOU.webp" />
+            </a>
+            <a href="gallery/11-NIKITOPOULOU.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (11)<br><em>Click: Μαρίνα Νικητοπούλου</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (11)" src="gallery/11-NIKITOPOULOU.webp" />
+            </a>
+            <a href="gallery/6-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (6)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (6)" src="gallery/6-IOANNOPOULOS.webp" />
+            </a>
+            <a href="gallery/13-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (13)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (13)" src="gallery/13-IOANNOPOULOS.webp" />
             </a>
         </div>
     </div>
