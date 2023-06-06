@@ -32,6 +32,7 @@ body {
     /*padding: 1.5rem;*/
     border-radius: 3px;
     max-width: 60rem;
+    overflow: hidden;
 }
 
 h1 {

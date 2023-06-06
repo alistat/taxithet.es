@@ -10,7 +10,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
     <link rel="icon" type="image/png" href="https://taxithet.es/favicon-128.png" sizes="128x128"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="elefantas.css?cache-bust=7">
+    <link rel="stylesheet" href="elefantas.css?cache-bust=8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
     <meta name="description" content="Παράσταση Ελέφαντας του Παναγιώτη Ρενιέρη από την ομάδα θεάτρου Ταξιθέτες" />
@@ -114,6 +114,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
             <Reservations :dates="dates"></Reservations>
         </div>
 
+
+        <h2>Φωτογραφίες & Βίντεο</h2>
         <div class="gallery">
             <a class="promo-video"
                data-video='{"source": [{"src":"gallery/ELEPHANT-VIDEO.webm", "type":"video/webm"}], "attributes": {"preload": false, "controls": true}}'
