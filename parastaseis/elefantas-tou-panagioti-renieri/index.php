@@ -14,12 +14,12 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
     <meta name="description" content="Παράσταση Ελέφαντας του Παναγιώτη Ρενιέρη από την ομάδα θεάτρου Ταξιθέτες" />
-    <link rel="canonical" href="https://taxithet.es/parastaseis/elefantas-tou-panagioti-renieri" />
+    <link rel="canonical" href="https://taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/" />
     <meta property="og:locale" content="el_GR" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Ελέφαντας του Παναγιώτη Ρενιέρη | Ταξιθέτες" />
     <meta property="og:description" content="Παράσταση Ελέφαντας του Παναγιώτη Ρενιέρη από την ομάδα θεάτρου Ταξιθέτες" />
-    <meta property="og:url" content="https://taxithet.es/parastaseis/elefantas-tou-panagioti-renieri" />
+    <meta property="og:url" content="https://taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/" />
     <meta property="og:site_name" content="Ταξιθέτες - Ομάδα Θεάτρου" />
     <meta property="article:publisher" content="https://www.facebook.com/taxithetes" />
     <meta property="article:modified_time" content="2023-05-29T13:09:44+00:00" />
@@ -127,43 +127,43 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
                 <img alt="Αφίσα - Ελέφαντας του Παναγιώτη Ρενιέρη" src="gallery/POSTER-ELEPHANT.jpg" />
             </a>
             <a href="gallery/1-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (1)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (1)" src="gallery/1-IOANNOPOULOS.webp" />
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (1) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="gallery/1-IOANNOPOULOS.webp" />
             </a>
             <a href="gallery/2-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (2)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (2)" src="gallery/2-IOANNOPOULOS.webp" />
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (2) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="gallery/2-IOANNOPOULOS.webp" />
             </a>
             <a href="gallery/3-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (3)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (3)" src="gallery/3-IOANNOPOULOS.webp" />
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (3) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="gallery/3-IOANNOPOULOS.webp" />
             </a>
             <a href="gallery/4-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (4)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (4)" src="gallery/4-IOANNOPOULOS.webp" />
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (4) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="gallery/4-IOANNOPOULOS.webp" />
             </a>
             <a href="gallery/5-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (5)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (5)" src="gallery/5-IOANNOPOULOS.webp" />
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (5) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="gallery/5-IOANNOPOULOS.webp" />
             </a>
             <a href="gallery/7-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (7)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (7)" src="gallery/7-IOANNOPOULOS.webp" />
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (7) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="gallery/7-IOANNOPOULOS.webp" />
             </a>
             <a href="gallery/8-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (8)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (8)" src="gallery/8-IOANNOPOULOS.webp" />
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (8) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="gallery/8-IOANNOPOULOS.webp" />
             </a>
             <a href="gallery/9-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (9)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (9)" src="gallery/9-IOANNOPOULOS.webp" />
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (9) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="gallery/9-IOANNOPOULOS.webp" />
             </a>
             <a href="gallery/12-NIKOLINA.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (12)<br><em>Click: Τζίνα Νικολίνα</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (12)" src="gallery/12-NIKOLINA.webp" />
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (12) Φωτογράφος: Τζίνα Νικολίνα" src="gallery/12-NIKOLINA.webp" />
             </a>
             <a href="gallery/10-NIKITOPOULOU.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (10)<br><em>Click: Μαρίνα Νικητοπούλου</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (10)" src="gallery/10-NIKITOPOULOU.webp" />
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (10) Φωτογράφος: Μαρίνα Νικητοπούλου" src="gallery/10-NIKITOPOULOU.webp" />
             </a>
             <a href="gallery/11-NIKITOPOULOU.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (11)<br><em>Click: Μαρίνα Νικητοπούλου</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (11)" src="gallery/11-NIKITOPOULOU.webp" />
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (11) Φωτογράφος: Μαρίνα Νικητοπούλου" src="gallery/11-NIKITOPOULOU.webp" />
             </a>
             <a href="gallery/6-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (6)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (6)" src="gallery/6-IOANNOPOULOS.webp" />
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (6) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="gallery/6-IOANNOPOULOS.webp" />
             </a>
             <a href="gallery/13-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (13)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (13)" src="gallery/13-IOANNOPOULOS.webp" />
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (13) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="gallery/13-IOANNOPOULOS.webp" />
             </a>
         </div>
     </div>
