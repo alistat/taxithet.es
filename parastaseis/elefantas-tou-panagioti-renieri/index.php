@@ -10,7 +10,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
     <link rel="icon" type="image/png" href="https://taxithet.es/favicon-128.png" sizes="128x128"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="elefantas.css?cache-bust=8">
+    <link rel="stylesheet" href="elefantas.css?cache-bust=9">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
     <meta name="description" content="Παράσταση Ελέφαντας του Παναγιώτη Ρενιέρη από την ομάδα θεάτρου Ταξιθέτες" />
@@ -111,6 +111,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
 
         <h2>Κράτηση</h2>
         <div class="reservations">
+            <div class="sold-out-message" v-if="anySoldOut">Για τις <span style="color: darkred">Sold Out</span> παραστάσεις καλέστε μας για τυχόν ακυρώσεις</div>
             <Reservations :dates="dates"></Reservations>
         </div>
 
@@ -220,6 +221,11 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
                 },
             ]
           }
+        },
+        computed: {
+            anySoldOut() {
+                return this.dates.some(d => d.soldOut);
+            }
         },
         components: {
           Reservations
