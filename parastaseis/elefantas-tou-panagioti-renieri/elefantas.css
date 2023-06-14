@@ -22,7 +22,7 @@ body {
     background-image: url(elefantas.webp);
     background-position: center;
     background-size: cover;
-    filter: blur(10px) brightness(0.64) grayscale(0.3);
+    filter: blur(10px) brightness(0.8) grayscale(0.3);
     left: -8px;
     overflow: hidden;
 }

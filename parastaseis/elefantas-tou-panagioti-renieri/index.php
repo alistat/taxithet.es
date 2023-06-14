@@ -10,7 +10,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
     <link rel="icon" type="image/png" href="https://taxithet.es/favicon-128.png" sizes="128x128"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="elefantas.css?cache-bust=9">
+    <link rel="stylesheet" href="elefantas.css?cache-bust=10">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
     <meta name="description" content="Παράσταση Ελέφαντας του Παναγιώτη Ρενιέρη από την ομάδα θεάτρου Ταξιθέτες" />
@@ -119,52 +119,52 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
         <h2>Φωτογραφίες & Βίντεο</h2>
         <div class="gallery">
             <a class="promo-video"
-               data-video='{"source": [{"src":"gallery/ELEPHANT-VIDEO.webm", "type":"video/webm"}], "attributes": {"preload": false, "controls": true}}'
+               data-video='{"source": [{"src":"https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/ELEPHANT-VIDEO.webm", "type":"video/webm"}], "attributes": {"preload": false, "controls": true}}'
                data-lg-size="1080-1080" data-sub-html="Promo Video - Ελέφαντας του Παναγιώτη Ρενιέρη<br><em>Video: Νίκος Πάγκαλος, Άλεξ Σολτς</em>">
-                <img alt="Promo Video - Ελέφαντας του Παναγιώτη Ρενιέρη" src="gallery/VIDEO_THUMB.jpg" />
+                <img alt="Promo Video - Ελέφαντας του Παναγιώτη Ρενιέρη" src="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/VIDEO_THUMB.webp" />
                 <div class="play-icon"></div>
             </a>
-            <a class="poster" href="gallery/POSTER-ELEPHANT.jpg" data-sub-html="Αφίσα - Ελέφαντας του Παναγιώτη Ρενιέρη<br><em>Σχεδιασμός: Θεοδώρα Μόσχου</em>">
-                <img alt="Αφίσα - Ελέφαντας του Παναγιώτη Ρενιέρη" src="gallery/POSTER-ELEPHANT.jpg" />
+            <a class="poster" href="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/POSTER-ELEPHANT.webp" data-sub-html="Αφίσα - Ελέφαντας του Παναγιώτη Ρενιέρη<br><em>Σχεδιασμός: Θεοδώρα Μόσχου</em>">
+                <img alt="Αφίσα - Ελέφαντας του Παναγιώτη Ρενιέρη" src="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/POSTER-ELEPHANT.webp" />
             </a>
-            <a href="gallery/1-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (1)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (1) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="gallery/1-IOANNOPOULOS.webp" />
+            <a href="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/1-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (1)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (1) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/1-IOANNOPOULOS.webp" />
             </a>
-            <a href="gallery/2-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (2)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (2) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="gallery/2-IOANNOPOULOS.webp" />
+            <a href="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/2-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (2)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (2) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/2-IOANNOPOULOS.webp" />
             </a>
-            <a href="gallery/3-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (3)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (3) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="gallery/3-IOANNOPOULOS.webp" />
+            <a href="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/3-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (3)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (3) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/3-IOANNOPOULOS.webp" />
             </a>
-            <a href="gallery/4-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (4)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (4) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="gallery/4-IOANNOPOULOS.webp" />
+            <a href="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/4-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (4)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (4) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/4-IOANNOPOULOS.webp" />
             </a>
-            <a href="gallery/5-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (5)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (5) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="gallery/5-IOANNOPOULOS.webp" />
+            <a href="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/5-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (5)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (5) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/5-IOANNOPOULOS.webp" />
             </a>
-            <a href="gallery/7-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (7)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (7) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="gallery/7-IOANNOPOULOS.webp" />
+            <a href="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/7-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (7)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (7) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/7-IOANNOPOULOS.webp" />
             </a>
-            <a href="gallery/8-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (8)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (8) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="gallery/8-IOANNOPOULOS.webp" />
+            <a href="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/8-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (8)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (8) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/8-IOANNOPOULOS.webp" />
             </a>
-            <a href="gallery/9-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (9)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (9) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="gallery/9-IOANNOPOULOS.webp" />
+            <a href="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/9-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (9)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (9) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/9-IOANNOPOULOS.webp" />
             </a>
-            <a href="gallery/12-NIKOLINA.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (12)<br><em>Click: Τζίνα Νικολίνα</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (12) Φωτογράφος: Τζίνα Νικολίνα" src="gallery/12-NIKOLINA.webp" />
+            <a href="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/12-NIKOLINA.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (12)<br><em>Click: Τζίνα Νικολίνα</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (12) Φωτογράφος: Τζίνα Νικολίνα" src="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/12-NIKOLINA.webp" />
             </a>
-            <a href="gallery/10-NIKITOPOULOU.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (10)<br><em>Click: Μαρίνα Νικητοπούλου</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (10) Φωτογράφος: Μαρίνα Νικητοπούλου" src="gallery/10-NIKITOPOULOU.webp" />
+            <a href="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/10-NIKITOPOULOU.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (10)<br><em>Click: Μαρίνα Νικητοπούλου</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (10) Φωτογράφος: Μαρίνα Νικητοπούλου" src="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/10-NIKITOPOULOU.webp" />
             </a>
-            <a href="gallery/11-NIKITOPOULOU.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (11)<br><em>Click: Μαρίνα Νικητοπούλου</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (11) Φωτογράφος: Μαρίνα Νικητοπούλου" src="gallery/11-NIKITOPOULOU.webp" />
+            <a href="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/11-NIKITOPOULOU.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (11)<br><em>Click: Μαρίνα Νικητοπούλου</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (11) Φωτογράφος: Μαρίνα Νικητοπούλου" src="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/11-NIKITOPOULOU.webp" />
             </a>
-            <a href="gallery/6-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (6)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (6) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="gallery/6-IOANNOPOULOS.webp" />
+            <a href="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/6-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (6)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (6) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/6-IOANNOPOULOS.webp" />
             </a>
-            <a href="gallery/13-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (13)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
-                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (13) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="gallery/13-IOANNOPOULOS.webp" />
+            <a href="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/13-IOANNOPOULOS.webp" data-sub-html="Ελέφαντας του Παναγιώτη Ρενιέρη (13)<br><em>Click: Χαράλαμπος Ιωαννόπουλος</em>">
+                <img alt="Ελέφαντας του Παναγιώτη Ρενιέρη (13) Φωτογράφος: Χαράλαμπος Ιωαννόπουλος" src="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/13-IOANNOPOULOS.webp" />
             </a>
         </div>
     </div>
@@ -192,17 +192,17 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
                 {
                     day: "Παρασκευή",
                     date: "9 Ιουνίου",
-                    soldOut: false,
+                    soldOut: true,
                 },
                 {
                     day: "Σάββατο",
                     date: "10 Ιουνίου",
-                    soldOut: false,
+                    soldOut: true,
                 },
                 {
                     day: "Κυριακή",
                     date: "11 Ιουνίου",
-                    soldOut: false,
+                    soldOut: true,
                 },
                 {
                     day: "Παρασκευή",
