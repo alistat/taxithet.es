@@ -169,6 +169,50 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
         </div>
     </div>
 
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Event",
+            "name": "Ελέφαντας - του Παναγιώτη Ρενιέρη",
+            "description": "Η νεοσύστατη ομάδα ΤΑΞΙΘΕΤΕΣ ξεκινά το ταξίδι της με ένα καινούριο θεατρικό έργο για τον έρωτα, για όσους χόρτασαν Ρωμαίους και Ιουλιέτες.",
+            "image": [
+                "https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/FB-COVER-ELEPHANT.webp",
+                "https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/1-IOANNOPOULOS.webp",
+                "https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/2-IOANNOPOULOS.webp",
+                "https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/3-IOANNOPOULOS.webp",
+                "https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/4-IOANNOPOULOS.webp",
+                "https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/gallery/5-IOANNOPOULOS.webp"
+            ],
+            "startDate": "2023-06-09",
+            "endDate": "2023-06-18",
+            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+            "location": {
+                "@type": "Place",
+                "name": "Θέατρο Μοντέρνοι Καιροί",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Δαμοκλέους 8",
+                    "addressLocality": "Αθήνα",
+                    "postalCode": "11854",
+                    "addressCountry": "GR"
+                }
+            },
+            "performer": {
+                "@type": "TheaterGroup",
+                "name": "Ταξιθέτες"
+            },
+            "offers": {
+                "@type": "Offer",
+                "name": "Προτεινόμενη συμμετοχή",
+                "price": "8",
+                "priceCurrency": "EUR",
+                "validFrom": "2023-06-01",
+                "url": "https://taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/",
+                "availability": "https://schema.org/InStock"
+            }
+        }
+    </script>
+
     <script src="https://unpkg.com/lightgallery@2/lightgallery.min.js"></script>
     <script src="https://unpkg.com/lightgallery@2/plugins/video/lg-video.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/lightgallery@2/css/lightgallery-bundle.min.css">
