@@ -19,7 +19,7 @@ body {
     width: calc(100% + 13px);
     position: fixed;
     z-index: -1;
-    background-image: url(elefantas.webp);
+    background-image: url(https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/elefantas.webp);
     background-position: center;
     background-size: cover;
     filter: blur(10px) brightness(0.8) grayscale(0.3);

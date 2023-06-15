@@ -10,7 +10,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
     <link rel="icon" type="image/png" href="https://taxithet.es/favicon-128.png" sizes="128x128"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="elefantas.css?cache-bust=10">
+    <link rel="stylesheet" href="elefantas.css?cache-bust=11">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
     <meta name="description" content="Παράσταση Ελέφαντας του Παναγιώτη Ρενιέρη από την ομάδα θεάτρου Ταξιθέτες" />
@@ -23,19 +23,19 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
     <meta property="og:site_name" content="Ταξιθέτες - Ομάδα Θεάτρου" />
     <meta property="article:publisher" content="https://www.facebook.com/taxithetes" />
     <meta property="article:modified_time" content="2023-05-29T13:09:44+00:00" />
-    <meta property="og:image" content="https://taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/FB-COVER-ELEPHANT.jpg" />
+    <meta property="og:image" content="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/FB-COVER-ELEPHANT.jpg" />
     <meta property="og:image:width" content="1640" />
     <meta property="og:image:height" content="624" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta name="twitter:title" content="Ελέφαντας του Παναγιώτη Ρενιέρη | Ταξιθέτες" />
     <meta name="twitter:description" content="Παράσταση Ελέφαντας του Παναγιώτη Ρενιέρη από την ομάδα θεάτρου Ταξιθέτες" />
-    <meta name="twitter:image" content="https://taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/FB-COVER-ELEPHANT.jpg" />
+    <meta name="twitter:image" content="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/FB-COVER-ELEPHANT.webp" />
 </head>
 <body>
     <div class="background-overlay"></div>
     <div class="content">
         <div class="header">
-            <img src="/logo.png"
+            <img src="https://static.taxithet.es/logo.png"
                  alt="logo" class="logo">
             <div class="team-identity">
                 <h1 class="team-name">Ταξιθέτες</h1>
@@ -51,7 +51,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
             </div>
         </div>
         <div class="image-banner-wrap">
-            <img class="image-banner" src="FB-COVER-ELEPHANT.webp" alt="Ελέφαντας banner" title="Ελέφαντας του Παναγιώτη Ρενιέρη | Ταξιθέτες">
+            <img class="image-banner" src="https://static.taxithet.es/parastaseis/elefantas-tou-panagioti-renieri/FB-COVER-ELEPHANT.webp" alt="Ελέφαντας banner" title="Ελέφαντας του Παναγιώτη Ρενιέρη | Ταξιθέτες">
         </div>
         <h2>Ελέφαντας <span class="full-view">-</span><br class="mobile-view"> του Παναγιώτη Ρενιέρη</h2>
         <div class="description">
@@ -207,7 +207,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
                 {
                     day: "Παρασκευή",
                     date: "16 Ιουνίου",
-                    soldOut: false,
+                    soldOut: true,
                 },
                 {
                     day: "Σάββατο",
